@@ -59,6 +59,7 @@ Digite o ID do nó para isolar/restaurar ou '0' para voltar:
 Pressione qualquer tecla para continuar...
 
 ---
+## Link Youtube : https://youtu.be/B9gHjFhlb5M
 
 ## 📥 Instalação e Execução
 
