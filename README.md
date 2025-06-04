@@ -1,51 +1,47 @@
-⚡️ GridHack - Simulador Interativo de Falhas em Redes Elétricas
+# ⚡️ GRIDHACK – Simulador Interativo de Falhas em Redes Elétricas
 
-GridHack é uma aplicação desenvolvida em C#/.NET 6 que simula falhas, isolamento e restauração de nós em uma rede elétrica, com pontuação, ranking e histórico persistente.
+## 📌 Descrição
+GridHack é um simulador interativo desenvolvido em **C#/.NET 6** para treinar operadores e estudantes sobre identificação, isolamento e restauração de falhas em redes elétricas. O sistema permite simular eventos críticos, acompanhar pontuações, histórico de partidas e testar decisões em tempo real – tudo em uma interface console colorida, robusta e fácil de usar.
 
-🚀 Objetivo
-Treinar e educar operadores e estudantes sobre o isolamento de falhas e a manutenção da conectividade em redes elétricas.
+---
 
-Reforçar conceitos de resiliência, decisão em tempo real e impactos cibernéticos no setor energético.
+## 🎯 Objetivo
 
-🛠️ Tecnologias Utilizadas
-| Tecnologia       | Descrição                    |
-| ---------------- | ---------------------------- |
-| **C# (.NET 6)**  | Backend da aplicação console |
-| System.Text.Json | Persistência local (JSON)    |
-| Stopwatch        | Medição do tempo de execução |
-| System.Console   | Saída formatada com cores    |
-| Mermaid.js       | Diagrama de fluxo (Markdown) |
-| Visual Studio    | Ambiente de desenvolvimento  |
-| Git/GitHub       | Versionamento e publicação   |
+- **Treinar** operadores e estudantes em procedimentos de isolamento de falhas e manutenção da conectividade em redes elétricas.
+- **Reforçar** conceitos de resiliência, decisão sob pressão e impactos cibernéticos no setor energético.
+- **Simular** situações reais, incluindo ataques SCADA e falhas inesperadas, promovendo educação em segurança e continuidade operacional.
 
+---
 
-✅ Funcionalidades Principais
-🔐 Login com autenticação
-🖥️ Visualização dinâmica da rede com cores
-🧩 Isolamento/restauração de nós com lógica de validação
-🧠 Verificação de conectividade da rede em tempo real
-🏁 Finalização com cálculo de pontuação e Rank
-📊 Histórico persistido em JSON
-🔥 Simulação de ataques SCADA (voltagem/corrente anormal)
+## 🛠️ Tecnologias Utilizadas
 
+| Tecnologia        | Descrição                                 |
+|-------------------|-------------------------------------------|
+| **C# (.NET 6)**   | Backend da aplicação (console)            |
+| System.Text.Json  | Persistência local de dados (JSON)        |
+| Stopwatch         | Medição de tempo de execução              |
+| System.Console    | Interface colorida e formatada            |
+| Mermaid.js        | Diagramas de fluxo para documentação      |
+| Visual Studio     | Ambiente de desenvolvimento recomendado   |
+| Git/GitHub        | Versionamento e publicação                |
 
-📥 Instalação e Execução
+---
 
-Clone o repositório:
-git clone https://github.com/seu-usuario/GridHack.git
-cd GridHack
+## ✅ Funcionalidades Principais
 
-Compile e execute:
-dotnet build
-dotnet run
+- 🔐 **Login seguro:** autenticação básica do usuário  
+- 🖥️ **Visualização dinâmica:** rede exibida com cores e status em tempo real  
+- 🧩 **Isolamento/restauração de nós:** lógica de validação e simulação fiel  
+- 🧠 **Verificação de conectividade:** checagem contínua da integridade da rede  
+- 🏁 **Pontuação e ranking:** feedback imediato ao final de cada simulação  
+- 📊 **Histórico persistente:** resultados armazenados em arquivo JSON local  
 
+---
+## 🔐 Login:
+- **Usuário:** user
+- **Senha:** 1234
 
-🧪 Exemplo de Uso
-🔐 Login:
-Usuário: user
-Senha: 1234
-
-⚡️ REDE ELÉTRICA - STATUS ATUAL ⚡️
+## ⚡️ REDE ELÉTRICA - STATUS ATUAL ⚡️
 
 [1] ❌ Falha
 [2] ✅ OK
@@ -61,5 +57,15 @@ Digite o ID do nó para isolar/restaurar ou '0' para voltar:
 ✅ Nó 1 isolado com sucesso!
 
 Pressione qualquer tecla para continuar...
+
+---
+
+## 📥 Instalação e Execução
+
+```bash
+git clone https://github.com/KauePastori/GridHack.git
+cd GridHack
+dotnet build
+dotnet run
 
 
